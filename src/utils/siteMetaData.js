@@ -12,7 +12,7 @@ const siteMetadata = {
     email: 'trukeshreddy79@gmail.com', 
     twitter: 'https://twitter.com/',
     facebook: 'https://facebook.com',
-    youtube: 'https://youtube.com/codebucks',
+    youtube: 'https://youtube.com/',
     linkedin: 'https://www.linkedin.com/in/rukesh2274/',
     dribbble: 'https://www.dribbble.com',
     locale: 'en-US',

@@ -5,6 +5,7 @@ import Header from "@/src/components/Header";
 import Footer from "../components/Footer";
 import siteMetadata from "../utils/siteMetaData";
 import Script from "next/script";
+import AdSense from "../components/Ads/AdSense";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -56,6 +57,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+      <AdSense pId="ca-pub-8909137908465451"/>
+      </head>
       <body
         className={cx(
           inter.variable,
